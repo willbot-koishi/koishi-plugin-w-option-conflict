@@ -1,0 +1,2 @@
+conflict: 'Option {0} conflicts with {1}.'
+conflict-with: '(conflicts with {0})'
