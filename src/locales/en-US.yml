@@ -1,2 +1,5 @@
 conflict: 'Option {0} conflicts with {1}.'
-conflict-with: '(conflicts with {0})'
+conflict-value: '{0} (because its value is {1})'
+conflict-help: 'Conflicts with {0}'
+conflict-help-value: '{0} (of value {1})'
+comma: ', '

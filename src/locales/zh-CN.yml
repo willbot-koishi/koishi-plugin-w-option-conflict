@@ -1,2 +1,5 @@
 conflict: '选项 {0} 与 {1} 冲突。'
-conflict-with: '（与 {0} 冲突）'
+conflict-value: '{0}（因为其值为 {1}）'
+conflict-help: '与 {0} 冲突'
+conflict-help-value: '{0}（值为 {1} 时）'
+comma: '、'
