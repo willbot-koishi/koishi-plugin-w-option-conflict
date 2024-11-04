@@ -57,7 +57,7 @@ export function apply(ctx: Context) {
             mat[name1] = {}
             optionNames.forEach(name2 => {
                 if (mat[name2]?.[name1]) return
-                const reason = reasonMat[name1][name2]
+                const reason = reasonMat[name1]?.[name2]
                 if (! reason) return
                 if (reason === true || reason?.value === options[name2]) mat[name1][name2] = reason
             })

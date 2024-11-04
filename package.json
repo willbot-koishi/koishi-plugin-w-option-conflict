@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-w-option-conflict",
   "description": "WillBot: Option conflict support",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -15,7 +15,7 @@
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "^4.17.12"
+    "koishi": "^4.18.0"
   },
   "devDependencies": {
     "@koishijs/plugin-help": "^2.4.4"
